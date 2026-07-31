@@ -1,0 +1,28 @@
+# VisDrone2019-DET — public cross-dataset benchmark.
+# Official project: https://github.com/VisDrone/VisDrone-Dataset
+#
+# After download, place the dataset under a local folder and set `path`
+# to that folder (relative path recommended). Example layout:
+#   ./datasets/VisDrone2019/
+#     VisDrone2019-DET-train/images/
+#     VisDrone2019-DET-val/images/
+#     VisDrone2019-DET-test-dev/images/
+
+path: ./datasets/VisDrone2019
+train: VisDrone2019-DET-train/images
+val: VisDrone2019-DET-val/images
+test: VisDrone2019-DET-test-dev/images
+
+nc: 10
+
+names:
+  0: pedestrian
+  1: people
+  2: bicycle
+  3: car
+  4: van
+  5: truck
+  6: tricycle
+  7: awning-tricycle
+  8: bus
+  9: motor

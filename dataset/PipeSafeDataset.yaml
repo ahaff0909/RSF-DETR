@@ -1,0 +1,22 @@
+# PipeSafeDataset (PSD) — primary benchmark in the paper.
+#
+# Full raw images are NOT redistributed (privacy / industrial constraints).
+# See docs/DATA_PROTOCOL.md for protocol and access notes.
+#
+# Default `path` points to the bundled smoke-test subset (NOT for paper metrics).
+# For full training, download/request PSD, lay out as YOLO folders, then set:
+#   path: ./datasets/PSD_yolo
+# where that directory contains images/{train,val} and labels/{train,val}.
+
+path: ./dataset/samples
+train: images/train
+val: images/val
+
+nc: 5
+
+names:
+  0: pedestrian
+  1: car
+  2: truck
+  3: non_motor_vehicle
+  4: construction_machinery

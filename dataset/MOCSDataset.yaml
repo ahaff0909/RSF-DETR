@@ -1,0 +1,28 @@
+# MOCS — public construction-site cross-dataset benchmark.
+# Obtain the official release, convert to YOLO layout if needed, then set `path`
+# to a local folder (relative path recommended). Example layout:
+#   ./datasets/MOCS_yolo/
+#     images/train|val|test
+#     labels/train|val|test
+
+path: ./datasets/MOCS_yolo
+train: images/train
+val: images/val
+test: images/test
+
+nc: 13
+
+names:
+  0: Worker
+  1: Static crane
+  2: Hanging head
+  3: Crane
+  4: Roller
+  5: Bulldozer
+  6: Excavator
+  7: Truck
+  8: Loader
+  9: Pump truck
+  10: Concrete mixer
+  11: Pile driving
+  12: Other vehicle

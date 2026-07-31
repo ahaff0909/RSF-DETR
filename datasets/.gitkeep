@@ -1,0 +1,5 @@
+# Place full public datasets here with relative paths only, e.g.:
+#   datasets/VisDrone2019/
+#   datasets/MOCS_yolo/
+#   datasets/PSD_yolo/   (if you obtained PSD under a data agreement)
+# These folders are gitignored except this placeholder.

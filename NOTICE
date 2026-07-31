@@ -1,0 +1,27 @@
+RSF-DETR
+========
+
+This project implements the Routing--Structure--Frequency Enhanced Detection
+Transformer (RSF-DETR) described in the accompanying paper, including:
+
+  - CERB  (Conditional Expert Routing Block)
+  - MESA  (Multi-Scale Edge Enhancement Aggregation)
+  - SFFN  (Spectral-Enhanced Feed-Forward Network)
+
+Base framework and license
+--------------------------
+This repository is derived from Ultralytics RT-DETR / YOLO
+(https://github.com/ultralytics/ultralytics), version family aligned with
+RT-DETR v8.0.201 as stated in the paper. Because the complete fork is
+redistributed here, the repository-level LICENSE is GNU AGPL-3.0. A separate
+commercial license may be required for uses that do not comply with AGPL-3.0.
+
+Datasets
+--------
+- PipeSafeDataset (PSD): restricted; see docs/DATA_PROTOCOL.md
+- VisDrone2019-DET: public (VisDrone project)
+- MOCS: public (original authors / release)
+
+Contact
+-------
+Author and contact information is withheld during anonymous peer review.

@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+.venv/
+venv/
+.env
+
+# Training / logs / weights
+runs/
+weights/*.pt
+weights/*.pth
+*.pt
+*.pth
+!weights/.gitkeep
+
+# Datasets (keep yaml + tiny samples only; never commit full PSD / VisDrone / MOCS)
+dataset/**/images/**
+dataset/**/labels/**
+!dataset/samples/images/**
+!dataset/samples/labels/**
+!dataset/samples/README.md
+datasets/**
+!datasets/.gitkeep
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
