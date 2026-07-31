@@ -6,7 +6,7 @@ paper module.
 | Paper module | Canonical class | Source |
 |---|---|---|
 | Conditional Expert Routing Block | `CERB` | `ultralytics/nn/rsf_detr/cerb.py` |
-| Multi-Scale Edge Enhancement Aggregation | `MESA` | `ultralytics/nn/rsf_detr/mesa.py` |
+| Multi-Scale Edge Selection Aggregation | `MESA` | `ultralytics/nn/rsf_detr/mesa.py` |
 | Spectral-Enhanced Feed-Forward Network | `SFFN` | `ultralytics/nn/rsf_detr/sffn.py` |
 | Strict paper-config parser | `parse_rsf_detr_model` | `ultralytics/nn/rsf_detr/parser.py` |
 | Full model | — | `configs/rsf-detr.yaml` |
