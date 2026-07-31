@@ -10,7 +10,7 @@ detection core:
 | Paper symbol | Full name | Implementation |
 |---|---|---|
 | `CERB` | Conditional Expert Routing Block | `ultralytics/nn/rsf_detr/cerb.py` |
-| `MESA` | Multi-Scale Edge Enhancement Aggregation | `ultralytics/nn/rsf_detr/mesa.py` |
+| `MESA` | Multi-Scale Edge Selection Aggregation | `ultralytics/nn/rsf_detr/mesa.py` |
 | `SFFN` | Spectral-Enhanced Feed-Forward Network | `ultralytics/nn/rsf_detr/sffn.py` |
 
 This repository focuses on the modules, configurations, and evaluation tools
