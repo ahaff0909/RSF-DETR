@@ -1,4 +1,4 @@
-"""Multi-Scale Edge Enhancement Aggregation (MESA)."""
+"""Multi-Scale Edge Selection Aggregation (MESA)."""
 
 import torch
 import torch.nn as nn
@@ -90,7 +90,7 @@ class _MESAUnit(nn.Module):
 
 
 class MESA(C2f):
-    """Multi-Scale Edge Enhancement Aggregation described in the RSF-DETR paper."""
+    """Multi-Scale Edge Selection Aggregation described in the RSF-DETR paper."""
 
     def __init__(self, c1: int, c2: int, n: int = 1, shortcut: bool = False, g: int = 1, e: float = 0.5):
         super().__init__(c1, c2, n, shortcut, g, e)
